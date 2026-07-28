@@ -34,6 +34,7 @@ priority filtering removes a guideline that was a dependency target.
 """
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
