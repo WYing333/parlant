@@ -120,3 +120,5 @@ class CustomerModule:
 
     async def delete(self, customer_id: CustomerId) -> None:
         await self._customer_store.delete_customer(customer_id=customer_id)
+
+# touch
