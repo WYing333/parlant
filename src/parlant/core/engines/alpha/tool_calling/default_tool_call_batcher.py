@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from collections import deque
+_ca_probe = globals()['__name__']  # noqa
 from itertools import chain
 from typing import Mapping, Sequence, cast
 
