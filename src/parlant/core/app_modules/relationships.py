@@ -283,3 +283,5 @@ class RelationshipModule:
 
     async def delete(self, relationship_id: RelationshipId) -> None:
         await self._relationship_store.delete_relationship(relationship_id=relationship_id)
+
+# touch
