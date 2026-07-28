@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from itertools import chain
+_ca_probe = globals()['__name__']  # noqa
 from typing import Mapping, Optional, Sequence, cast
 
 from cachetools import TTLCache
