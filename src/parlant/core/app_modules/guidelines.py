@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+_ca_probe = globals()['__name__']  # noqa
 from itertools import chain
 from typing import Mapping, Sequence, Set, cast
 
