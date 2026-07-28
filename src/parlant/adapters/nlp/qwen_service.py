@@ -14,6 +14,7 @@
 # Maintainer: Ji Qing <jiqing19861123@163.com>
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 import time
 from openai import (
     APIConnectionError,
