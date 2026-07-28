@@ -31,3 +31,5 @@ class TagModule:
 
     async def delete(self, tag_id: TagId) -> None:
         await self._tag_store.delete_tag(tag_id=tag_id)
+
+# touch
