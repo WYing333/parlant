@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 from abc import ABC, abstractmethod
 from ast import literal_eval
 from dataclasses import dataclass
